@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estude com IA — Acesso Exclusivo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0a0f2c, #1b1f5f);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      font-size: 1.9em;
+      margin-bottom: 10px;
+      color: #00aaff;
+    }
+
+    p {
+      font-size: 0.95em;
+      margin-bottom: 25px;
+      color: #ccc;
+      line-height: 1.5em;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input {
+      padding: 12px 15px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      font-size: 1em;
+      color: #333;
+    }
+
+    input::placeholder {
+      color: #777;
+    }
+
+    button {
+      background: #00aaff;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background: #0090dd;
+      transform: translateY(-2px);
+    }
+
+    .warning {
+      margin-top: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      border-left: 4px solid #ffcc00;
+      padding: 12px;
+      border-radius: 10px;
+      color: #ffcc66;
+      font-size: 0.9em;
+    }
+
+    .security-note {
+      font-size: 0.8em;
+      margin-top: 15px;
+      color: #aaa;
+    }
+
+    .brand {
+      margin-top: 25px;
+      font-size: 0.9em;
+      color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Garanta seu Acesso Exclusivo</h1>
+    <p>Preencha seus dados abaixo e receba o conteúdo diretamente no seu e-mail após a confirmação do pagamento.</p>
+
+    <form action="https://formsubmit.co/contato.estudacomia@gmail.com" method="POST">
+      <input type="text" name="Nome" placeholder="Seu nome completo" required>
+      <input type="email" name="Email" placeholder="Seu melhor e-mail" required>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://seusite.com/confirmacao.html">
+      <button type="submit">Cadastrar Acesso</button>
+    </form>
+
+    <div class="warning">
+      ⚠️ <strong>Atenção:</strong> o conteúdo será enviado somente após a confirmação do pagamento.
+    </div>
+
+    <p class="security-note">🔒 Seus dados estão seguros. Não enviamos spam.</p>
+    <p class="brand">Estude com IA © 2025</p>
+  </div>
+</body>
+</html>
